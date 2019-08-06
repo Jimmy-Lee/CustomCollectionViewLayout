@@ -10,6 +10,6 @@ final class CardView: UIView, NibReusable {
 
         layer.cornerRadius = 16
         layer.borderWidth = 2
-        layer.borderColor = UIColor.systemRed.cgColor
+        layer.borderColor = UIColor.lightGray.cgColor
     }
 }
