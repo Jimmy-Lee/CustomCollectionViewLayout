@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B34A1DD22F94329002E03BF /* CarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B34A1DC22F94329002E03BF /* CarouselLayout.swift */; };
+		4B34A1E022F9490E002E03BF /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B34A1DE22F9490E002E03BF /* CardCollectionViewCell.swift */; };
+		4B34A1E122F9490E002E03BF /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B34A1DF22F9490E002E03BF /* CardCollectionViewCell.xib */; };
 		4B6B44C422F82EE30054892D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44C322F82EE30054892D /* AppDelegate.swift */; };
 		4B6B44C622F82EE30054892D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44C522F82EE30054892D /* SceneDelegate.swift */; };
-		4B6B44C822F82EE30054892D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44C722F82EE30054892D /* ViewController.swift */; };
-		4B6B44CB22F82EE30054892D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6B44C922F82EE30054892D /* Main.storyboard */; };
 		4B6B44CD22F82EE70054892D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6B44CC22F82EE70054892D /* Assets.xcassets */; };
 		4B6B44D022F82EE70054892D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6B44CE22F82EE70054892D /* LaunchScreen.storyboard */; };
+		4B6B44D822F8336F0054892D /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44D722F8336F0054892D /* CardInfoViewController.swift */; };
+		4B6B44DC22F915940054892D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44DB22F915940054892D /* CardView.swift */; };
+		4B6B44DE22F915A50054892D /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B6B44DD22F915A50054892D /* CardView.xib */; };
+		4B6B44E122F91DEF0054892D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6B44E022F91DEF0054892D /* SnapKit */; };
+		4B6B44F922F91EB70054892D /* StoryboardSceneBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F122F91EB70054892D /* StoryboardSceneBased.swift */; };
+		4B6B44FA22F91EB70054892D /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F222F91EB70054892D /* StoryboardBased.swift */; };
+		4B6B44FB22F91EB70054892D /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F422F91EB70054892D /* UICollectionView+Reusable.swift */; };
+		4B6B44FC22F91EB70054892D /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F522F91EB70054892D /* Reusable.swift */; };
+		4B6B44FD22F91EB70054892D /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F622F91EB70054892D /* UITableView+Reusable.swift */; };
+		4B6B44FE22F91EB70054892D /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F722F91EB70054892D /* NibLoadable.swift */; };
+		4B6B44FF22F91EB70054892D /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B44F822F91EB70054892D /* NibOwnerLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B34A1DC22F94329002E03BF /* CarouselLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselLayout.swift; sourceTree = "<group>"; };
+		4B34A1DE22F9490E002E03BF /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B34A1DF22F9490E002E03BF /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 		4B6B44C022F82EE30054892D /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6B44C322F82EE30054892D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6B44C522F82EE30054892D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B6B44C722F82EE30054892D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B6B44CA22F82EE30054892D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B6B44CC22F82EE70054892D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6B44CF22F82EE70054892D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6B44D122F82EE70054892D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6B44D722F8336F0054892D /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		4B6B44DB22F915940054892D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4B6B44DD22F915A50054892D /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		4B6B44F122F91EB70054892D /* StoryboardSceneBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSceneBased.swift; sourceTree = "<group>"; };
+		4B6B44F222F91EB70054892D /* StoryboardBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardBased.swift; sourceTree = "<group>"; };
+		4B6B44F422F91EB70054892D /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		4B6B44F522F91EB70054892D /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		4B6B44F622F91EB70054892D /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		4B6B44F722F91EB70054892D /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		4B6B44F822F91EB70054892D /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6B44E122F91DEF0054892D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,7 @@
 		4B6B44B722F82EE30054892D = {
 			isa = PBXGroup;
 			children = (
+				4B6B450122F91EE50054892D /* ThirdParty */,
 				4B6B44C222F82EE30054892D /* Wallet */,
 				4B6B44C122F82EE30054892D /* Products */,
 			);
@@ -56,15 +81,57 @@
 		4B6B44C222F82EE30054892D /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				4B6B44DB22F915940054892D /* CardView.swift */,
+				4B6B44DD22F915A50054892D /* CardView.xib */,
 				4B6B44C322F82EE30054892D /* AppDelegate.swift */,
 				4B6B44C522F82EE30054892D /* SceneDelegate.swift */,
-				4B6B44C722F82EE30054892D /* ViewController.swift */,
-				4B6B44C922F82EE30054892D /* Main.storyboard */,
+				4B6B44D722F8336F0054892D /* CardInfoViewController.swift */,
+				4B34A1DE22F9490E002E03BF /* CardCollectionViewCell.swift */,
+				4B34A1DF22F9490E002E03BF /* CardCollectionViewCell.xib */,
+				4B34A1DC22F94329002E03BF /* CarouselLayout.swift */,
 				4B6B44CC22F82EE70054892D /* Assets.xcassets */,
 				4B6B44CE22F82EE70054892D /* LaunchScreen.storyboard */,
 				4B6B44D122F82EE70054892D /* Info.plist */,
 			);
 			path = Wallet;
+			sourceTree = "<group>";
+		};
+		4B6B44F022F91EB70054892D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4B6B44F122F91EB70054892D /* StoryboardSceneBased.swift */,
+				4B6B44F222F91EB70054892D /* StoryboardBased.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4B6B44F322F91EB70054892D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B6B44F422F91EB70054892D /* UICollectionView+Reusable.swift */,
+				4B6B44F522F91EB70054892D /* Reusable.swift */,
+				4B6B44F622F91EB70054892D /* UITableView+Reusable.swift */,
+				4B6B44F722F91EB70054892D /* NibLoadable.swift */,
+				4B6B44F822F91EB70054892D /* NibOwnerLoadable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B6B450022F91ECC0054892D /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				4B6B44F022F91EB70054892D /* Storyboard */,
+				4B6B44F322F91EB70054892D /* View */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		4B6B450122F91EE50054892D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4B6B450022F91ECC0054892D /* Reusable */,
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,9 @@
 			dependencies = (
 			);
 			name = Wallet;
+			packageProductDependencies = (
+				4B6B44E022F91DEF0054892D /* SnapKit */,
+			);
 			productName = Wallet;
 			productReference = 4B6B44C022F82EE30054892D /* Wallet.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 4B6B44B722F82EE30054892D;
+			packageReferences = (
+				4B6B44DF22F91DEF0054892D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4B6B44C122F82EE30054892D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B34A1E122F9490E002E03BF /* CardCollectionViewCell.xib in Resources */,
 				4B6B44D022F82EE70054892D /* LaunchScreen.storyboard in Resources */,
 				4B6B44CD22F82EE70054892D /* Assets.xcassets in Resources */,
-				4B6B44CB22F82EE30054892D /* Main.storyboard in Resources */,
+				4B6B44DE22F915A50054892D /* CardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +212,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6B44C822F82EE30054892D /* ViewController.swift in Sources */,
+				4B6B44FD22F91EB70054892D /* UITableView+Reusable.swift in Sources */,
+				4B6B44FF22F91EB70054892D /* NibOwnerLoadable.swift in Sources */,
+				4B6B44D822F8336F0054892D /* CardInfoViewController.swift in Sources */,
 				4B6B44C422F82EE30054892D /* AppDelegate.swift in Sources */,
+				4B6B44FC22F91EB70054892D /* Reusable.swift in Sources */,
+				4B6B44FE22F91EB70054892D /* NibLoadable.swift in Sources */,
 				4B6B44C622F82EE30054892D /* SceneDelegate.swift in Sources */,
+				4B34A1E022F9490E002E03BF /* CardCollectionViewCell.swift in Sources */,
+				4B34A1DD22F94329002E03BF /* CarouselLayout.swift in Sources */,
+				4B6B44DC22F915940054892D /* CardView.swift in Sources */,
+				4B6B44FB22F91EB70054892D /* UICollectionView+Reusable.swift in Sources */,
+				4B6B44F922F91EB70054892D /* StoryboardSceneBased.swift in Sources */,
+				4B6B44FA22F91EB70054892D /* StoryboardBased.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B6B44C922F82EE30054892D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B6B44CA22F82EE30054892D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B6B44CE22F82EE70054892D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B6B44DF22F91DEF0054892D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B6B44E022F91DEF0054892D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B6B44DF22F91DEF0054892D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B6B44B822F82EE30054892D /* Project object */;
 }
